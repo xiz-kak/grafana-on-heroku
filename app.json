@@ -1,0 +1,7 @@
+{
+  "name": "Grafana on Heroku",
+  "description": "Build Grafana docker image on Heroku",
+  "repository": "https://github.com/xiz-kak/grafana-on-heroku",
+  "keywords": ["grafana", "heroku", "docker"],
+  "stack": "container"
+}
