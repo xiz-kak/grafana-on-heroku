@@ -1,13 +1,25 @@
-# grafana-on-heroku
+# Grafana on Heroku
 
-This is a docker image to run Grafana on Heroku.
+Build Grafana docker image on Heroku.
 
-## Prerequisites
+## Quick setup
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xiz-kak/grafana-on-heroku)
+
+## Manual setup
+
+### Prerequisites
 
 - heroku-cli installed
 - logged in to heroku
 
-## Commands to setup
+### Commands to setup (for Mac)
+
+Clone this repositry
+
+```
+$ git clone https://github.com/xiz-kak/grafana-on-heroku && cd grafana-on-heroku
+```
 
 Login to Container Registry
 
@@ -44,3 +56,7 @@ Open the app
 ```
 $ heroku open -a [app name]
 ```
+
+## Login
+
+Use `admin/admin` to login with the default admin.
